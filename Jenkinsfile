@@ -30,6 +30,21 @@ pipeline {
         sh 'docker build -t devops-node-app:latest .'
     }
 }
+stage('Docker Push') {
+    steps {
+        withCredentials([usernamePassword(
+            credentialsId: 'dockerhub-creds',
+            usernameVariable: 'DOCKER_USER',
+            passwordVariable: 'DOCKER_PASS'
+        )]) {
+            sh '''
+              echo "$DOCKER_PASS" | docker login -u "$DOCKER_USER" --password-stdin
+              docker tag devops-node-app:latest sharana1604/devops-node-app:latest
+              docker push sharana1604/devops-node-app:latest
+            '''
+        }
+    }
+}
 
     }
 }
