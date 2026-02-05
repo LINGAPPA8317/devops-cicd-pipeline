@@ -25,5 +25,11 @@ pipeline {
                 echo 'CI pipeline working successfully'
             }
         }
+        stage('Docker Build') {
+    steps {
+        sh 'docker build -t devops-node-app:latest .'
+    }
+}
+
     }
 }
