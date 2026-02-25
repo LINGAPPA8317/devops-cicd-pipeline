@@ -1,6 +1,7 @@
 # 🚀 DevOps CI/CD Pipeline Project
 
-👨‍💻 **Author:** Sharan Basava
+👨‍💻 **Author:** Sharana Basava
+
 🔧 **Role:** DevOps Engineer (Learning Journey)
 
 This project demonstrates a complete DevOps workflow using Jenkins, Docker, Kubernetes, and AWS EC2.
