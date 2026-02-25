@@ -1,5 +1,8 @@
 # 🚀 DevOps CI/CD Pipeline Project
 
+👨‍💻 **Author:** Sharan Basava
+🔧 **Role:** DevOps Engineer (Learning Journey)
+
 This project demonstrates a complete DevOps workflow using Jenkins, Docker, Kubernetes, and AWS EC2.
 
 ---
@@ -91,11 +94,3 @@ http://<EC2_PUBLIC_IP>:30007
 * Kubernetes deployment
 * AWS EC2 infrastructure basics
 * NodePort networking
-
----
-
-## 👨‍💻 Author
-
-Sharan Basava
-DevOps Engineer (Learning Journey 🚀)
-
