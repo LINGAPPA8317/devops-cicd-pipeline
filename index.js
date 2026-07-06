@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('DevOps CI/CD Project – App is running 🚀');
+  res.send('hello  lingumd DevOps CI/CD Project App is running');
 });
 
 app.listen(3000, () => {
