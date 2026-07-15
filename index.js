@@ -77,7 +77,7 @@ app.get('/', (req, res) => {
     <p>Welcome to my Node.js application.</p>
 
     <div class="status">
-        ✅ Application is Running Successfully
+      Application is Running Successfully
     </div>
 
     <p><strong>Technology Stack</strong></p>
@@ -114,5 +114,5 @@ function showMessage(){
 });
 
 app.listen(3000, () => {
-    console.log("🚀 Server is running on Port 3000");
+    console.log("Server is running on Port 3000");
 });
