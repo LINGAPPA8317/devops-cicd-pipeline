@@ -97,14 +97,14 @@ app.get('/', (req, res) => {
 
     <footer>
         Created by <strong>Lingappa M</strong><br><br>
-        CI/CD Auto Deployment Successful 🎉
+        CI/CD Auto Deployment Successful
     </footer>
 
 </div>
 
 <script>
 function showMessage(){
-    alert("🎉 Congratulations! Your CI/CD Pipeline is Working Successfully.");
+    alert(" Congratulations! Your CI/CD Pipeline is Working Successfully.");
 }
 </script>
 
