@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    image: lingumd/cicd:latest
+    image: img
     container_name: app
     ports:
       - "3000:3000"
